@@ -6,7 +6,6 @@
         div{
             width: 100px;
             height: 100px;
-            position: relative; /*relativno od mjesta gdje stoji*/
         }
         #prvi{
             background-color: red;          
@@ -14,12 +13,16 @@
         }
         #drugi{
             background-color: green;
-            top: -100px;
+            position: absolute;
+            top: 100px;
+            opacity: .5;
+            position: sticky;
         }
         #treci{
             background-color: rgb(66, 66, 226);
-            top: -200px;
-            left: 100px;
+            height: 2000px;
+            /* position: relative; */
+            /* z-index: 100; */
         }
 
     </style>
