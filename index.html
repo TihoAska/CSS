@@ -3,27 +3,31 @@
 <head>
     <title>CSS</title>
     <style type="text/css">
-        /*svi h1 naslovi*/
-        h1{
-            color: red;
-        }
-        /*svi sa klasom vazan naslov*/
-        .vazan-naslov{ 
+        .plava{
             color: blue;
-            font-size: 200%; /*200% od normalnog texta (p)*/
+            opacity: .3;
         }
-        /*samo onaj sa id-jem ne tako vazan naslov*/
-        #ne-tako-vazan-naslov{
-            color: green;
+        #zuto{
+            color: yellow;
         }
+
     </style>
 </head>
     <body>
-        <h1>CSS</h1>
-        <h1 class="vazan-naslov">CSS</h1> <!-- moze biti vise naslova s istom klasom, ali samo jedan s ID-->
-        <p>neki text</p>
-        <h1 class="vazan-naslov">CSS</h1>
-        <h1 class="vazan-naslov">CSS</h1>
-        <h1 id="ne-tako-vazan-naslov">CSS</h1>
+        <p>
+            <div>
+                <span class="plava">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span> 
+                <span id="zuto">Officia earum commodi perferendis quis facilis numquam placeat </span> 
+                <span style="text-decoration: underline;">similique suscipit eos tempora accusantium deleniti, </span> 
+                <span class="plava">impedit magni sapiente repellendus sunt necessitatibus provident minus?</span> 
+            </div>
+            <div>
+                <span class="plava">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span> 
+                <span id="zuto">Officia earum commodi perferendis quis facilis numquam placeat </span> 
+                <span style="text-decoration: underline;">similique suscipit eos tempora accusantium deleniti, </span> 
+                <span class="plava">impedit magni sapiente repellendus sunt necessitatibus provident minus?</span> 
+            </div>
+            
+        </p>
     </body>
 </html>
